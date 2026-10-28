@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "typecheck": "tsc --noEmit",
+    "sync-calendars": "node scripts/update-calendars.mjs",
     "test": "vitest run"
   },
   "dependencies": {
